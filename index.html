@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+      let input;
+      input=parseInt(prompt("Введите число: "));
+      while(input>0){
+        document.write(`#`);
+        input--;
+      }
+    </script> -->
+    <hr>
+    <!-- <script>
+        let input1;
+        input1=parseInt(prompt("Введите число: "));
+        while(input1>0){
+            input1--;
+          document.write(input1);
+          
+        }
+      </script> -->
+      <hr>
+      <!-- <script>
+        let num, deg;
+        num=parseInt(prompt("Введите число: "));
+        deg=parseInt(prompt("Введите степень: "));
+            
+          document.write(num**deg);
+          
+      </script> -->
+      <hr>
+      <!-- <script>
+        let num1, num2, num3=0;
+        num1=parseInt(prompt("Введите число 1: "));
+        num2=parseInt(prompt("Введите число 2: "));
+        let min;
+        if(num1<num2){
+            min=num1;
+        }
+        else if((num2<num1)||(num2==num1)){
+            min=num2;
+        }
+          while(num3<=min){
+            if((num1%num3==0)&&(num2%num3==0)){
+                document.write(num3);
+            }
+            num3++;
+          }
+      </script> -->
+      <hr>
+      <!-- <script>
+        let usNum, result, fac=1;
+        usNum=parseInt(prompt("Введите число: "));
+        while(fac<=usNum){
+            if(fac==1){
+                result=fac*(fac+1);
+                fac++;
+                fac++;
+            }
+            else{
+                result*=fac;
+            fac++;
+            }
+           
+        }
+        document.write(result);
+      </script> -->
+      <!-- <script>
+        let result1;
+        do{
+            result1=parseInt(prompt("Решите пример: 2+2*2= "));
+        }while(result1!=6);
+        
+      </script> -->
+      <!-- <script>
+        let count=0, num4=1000;
+        do{
+            num4/=2;
+            count++;
+        }while(num4>=50);
+        document.write(count);
+      </script> -->
+<!-- <script>
+    let userNum;
+    userNum=parseInt(prompt("Введите число: "));
+    for (let i=userNum;i<=100;i++){
+        if(i%userNum==0){
+            document.write(i+ " ");
+        }
+    }
+</script> -->
+<hr>
+<!-- <script>
+    let userNum1, userNum2, usCount=0;
+    userNum1=parseInt(prompt("Введите число 1: "));
+    userNum2=parseInt(prompt("Введите число 2: "));
+    for (let i=userNum1;i<=userNum2;i++){
+        usCount++;
+        if(usCount%4==0){
+            document.write(i+ " ");
+        }
+    }
+</script> -->
+<hr>
+      <script>
+        let usNumber, count=0;
+        usNumber=parseInt(prompt("Введите число: "));
+        for (let i=0; i<=usNumber;i++){
+            if (usNumber%i==0){
+                count++;
+            }
+        }
+        if (count>2){
+            document.write("Число не является простым");
+        }
+        else{
+            document.write("Число является простым");
+        }
+      </script>
+</body>
+</html>
